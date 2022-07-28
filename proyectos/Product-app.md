@@ -19,7 +19,14 @@ Nota: propiedad del settings.json "explorer.compactFolders": false,
  - ng g c products/pages/search
  - ng g c products/pages/product-id
  - ng g c products/pages/home
+ - ng g c products/pages/list-product
 
  4. Creando el Error 404
   **Dentro de una carpeta llamada "shared"**
   - ng g c shared/error404
+
+ 5. Creando las rutas para "products"
+  - ng g m products/productsRouting --flat (el --flat es para que no se cree la carpeta)
+
+ 6. Creando las rutas para "auth"
+  - ng g m auth/authRouting --flat
